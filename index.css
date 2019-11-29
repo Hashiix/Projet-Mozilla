@@ -6,6 +6,7 @@
     font-family: Zilla slab;
     text-align: center;
     font-size: 40px;
+    box-sizing: border-box;
 }
 
 html{
@@ -48,9 +49,6 @@ li {
 	list-style: none;
 	margin-top: 20px;
     margin-right: 20px;
-}
-.invisible {
-	height: 50px;
 }
 .menus {
 	color: white;
@@ -103,19 +101,52 @@ li {
 
 /* Editeurs de texte */
 
-.edition {
-    display: flex;
-    width: 100%;
-    background-color: white;
+.invisibleedition {
+    height: 50px;
     scroll-snap-align: start;
 }
 .edition {
     display: flex;
-    margin-left: 5%;
-    margin-right: 5%;
+    flex-direction: column;
+    margin-left: 3%;
+    margin-right: 3%;
     margin-top: 5%;
     margin-bottom: 5%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: fff44f;
+    background-color: white;
+}
+.topedition {
+    width: 100%;
+    display: flex;
+}
+.titreedition {
+    width: 500px;
+    display: flex;
+    justify-content: row;
 
+}
+.strong01 {
+    color: white;
+    font-size: 140px;
+    background-color: fff44f;
+    text-decoration: underline black;
+    text-align: start;
+    margin-top: -50px;
+}
+.titre01 {
+    color: black;
+    font-size: 100px;
+    text-align: left;
+    background-color: fff44f;
+    text-decoration: underline black;
+    
+}
+.definitionedition {
+    font-size: 25px;
+    text-align: left;
+    margin-top: 20px;
 }
 
 
