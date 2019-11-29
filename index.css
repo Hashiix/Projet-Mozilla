@@ -47,7 +47,7 @@ li {
 	font-size: 20px;
 	list-style: none;
 	margin-top: 20px;
-	margin-right: 20px;
+    margin-right: 20px;
 }
 .invisible {
 	height: 50px;
@@ -92,6 +92,44 @@ li {
     margin-right: 10%;
     margin-left: 10%;
 }
+.encresavoirplus {
+    color: white;
+    text-decoration: none;
+}
+.encresavoirplus:hover {
+    color: teal;
+}
+
+
+
+
+
+/* Media queries */
+
+@media only screen and (max-width: 750px) {	
+	label {
+		display: block;
+		cursor: pointer;
+	}
+
+	header{
+		display: block;
+	}
+	.burger {
+		text-align: center;
+		flex-direction: column;
+		width: 100%;
+		padding: 0px;
+		margin-left: 20px;
+	}
+
+
+
+
+
+
+
+
 
 
 
