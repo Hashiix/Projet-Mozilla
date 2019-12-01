@@ -3,7 +3,13 @@
 *{
     margin: 0px;
     padding: 0px;
+<<<<<<< HEAD
     font-family: Zilla slab;
+=======
+    font-family: 'Zilla Slab', serif;
+    text-align: center;
+    box-sizing: border-box;
+>>>>>>> 93aa7574ea4b6f726d654576bcb66414d7249f30
 }
 
 html{
@@ -46,9 +52,6 @@ li {
 	list-style: none;
 	margin-top: 20px;
     margin-right: 20px;
-}
-.invisible {
-	height: 50px;
 }
 .menus {
 	color: white;
@@ -101,20 +104,64 @@ li {
 
 /* Editeurs de texte */
 
-.edition {
-    display: flex;
-    width: 100%;
-    background-color: white;
+.invisibleedition {
+    height: 50px;
     scroll-snap-align: start;
 }
+
+/* Grand Cadre */
+
 .edition {
     display: flex;
+    flex-direction: column;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 5%;
+    margin-top: 3%;
     margin-bottom: 5%;
-
+    border-style: solid;
+    border-width: 8px;
+    border-color: fff44f;
+    background-color: white;
 }
+
+/* ///// Cadre Titre + definition \\\\\ */
+
+.topedition {
+    width: 100%;
+    display: flex;
+}
+
+/* Titre "01. Editeur de texte" */
+
+.titreedition {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -45px;
+}
+.numero {
+    color: white;
+    font-size: 140px;
+}
+.editeur {
+    color: black;
+    font-size: 100px;
+    text-align: left;
+}
+.editeurdetexte {
+    background-color: fff44f;
+}
+
+/* Definition "Editeur de texte" */
+
+.definitionedition {
+    font-size: 25px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+/* ///// Fin Cadre Titre + definition \\\\\ */
 
 
 
