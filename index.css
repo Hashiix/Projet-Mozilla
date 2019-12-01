@@ -6,9 +6,9 @@
 <<<<<<< HEAD
     font-family: Zilla slab;
 =======
-    font-family: 'Zilla Slab', serif;
+    /* font-family: 'Zilla Slab', serif;
     text-align: center;
-    box-sizing: border-box;
+    box-sizing: border-box; */
 >>>>>>> 93aa7574ea4b6f726d654576bcb66414d7249f30
 }
 
@@ -163,6 +163,122 @@ li {
 
 /* ///// Fin Cadre Titre + definition \\\\\ */
 
+/* Format et position des Tickets */
+.ticketleft{
+    border-style: solid;
+    border-width: 3px;
+    border-top-width: 30px;
+    border-color: black;
+    border-bottom-left-radius: 15px; 
+    border-bottom-right-radius: 15px;
+    box-shadow: 1px 1px 5px black;
+    background-color: white;
+    width: 839px;
+    height: 230px;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.ticketright{
+    border-style: solid;
+    border-width: 3px;
+    border-top-width: 30px;
+    border-color: black;
+    border-bottom-left-radius: 15px; 
+    border-bottom-right-radius: 15px;
+    box-shadow: 1px 1px 5px black;
+
+    background-color: white;
+    width: 839px;
+    height: 230px;
+    margin-left: 30%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+/*
+.ticketleft:hover{
+    width: 850px;
+    height: 240px;
+    margin-left: 13%;
+    font-size: 20px;
+}
+
+.ticketright:hover{
+    width: 850px;
+    height: 240px;
+    margin-left: 28%;
+}
+*/
+
+/* Logo Ticket */
+
+.logo1{
+    width: 120px;
+    height: 115px;
+    margin-left: 10px;
+    margin-top: 55px;
+}
+
+.logo2{
+    width: 120px;
+    height: 130px;
+    margin-left: 10px;
+    margin-top: 45px;
+}
+
+.textticket{
+    margin-top: 15px;
+}
+
+/* Prise en main & Download */
+
+.hand{
+    height: 25px;
+    width: 30px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.hand:hover{
+    height: 28px;
+    width: 32px;
+}
+
+.divhand{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    margin-top: 15px;
+}
+
+.download{
+    height: 25px;
+    width: 30px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.download:hover{
+    height: 28px;
+    width: 32px;
+}
+
+.divdownload{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.hado{
+    display: flex;
+    justify-content: flex-start;
+}
 
 
 
@@ -189,22 +305,6 @@ li {
 		padding: 0px;
 		margin-left: 20px;
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .partie3 {
     width: 100%;
