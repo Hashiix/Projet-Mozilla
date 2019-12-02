@@ -67,7 +67,7 @@ li {
     align-items: center;
     justify-content: center;
     background-image: url(img/header.jpg);
-    background-size: 60%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     color: white;
@@ -105,6 +105,7 @@ li {
 .edition {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 3%;
@@ -157,9 +158,6 @@ li {
 /* Format et position des Tickets */
 
 .space{
-	height: 60px;
-}
-.spaceend{
 	height: 100px;
 }
 
@@ -174,7 +172,8 @@ li {
     background-color: white;
     width: 839px;
     height: 230px;
-    margin-left: 10%;
+    margin-left: -10%;
+    margin-top: 5%;
     display: flex;
     justify-content: space-around;
     font-size: 20px;
@@ -188,11 +187,11 @@ li {
     border-bottom-left-radius: 15px; 
     border-bottom-right-radius: 15px;
     box-shadow: 1px 1px 5px black;
-
     background-color: white;
     width: 839px;
     height: 230px;
-    margin-left: 23%;
+    margin-left: 10%;
+    margin-top: 5%;;
     display: flex;
     justify-content: space-around;
     font-size: 20px;
@@ -286,6 +285,7 @@ li {
 .gestion {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 3%;
@@ -322,6 +322,7 @@ li {
 .client {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 3%;
@@ -390,11 +391,13 @@ li {
 }
 
 .pourquoi{
+    margin-top: 5%;
     margin-left: 10%;
     font-size: 20px;
 }
 
 .avantages{
+    margin-top: 5%;
     margin-left: 23%;
     font-size: 20px;
 }
@@ -413,7 +416,7 @@ li {
 
 /* Media queries */
 
-@media only screen and (max-width: 750px) {	
+@media(max-width: 750px) {	
 	label {
 		display: block;
 		cursor: pointer;
