@@ -11,6 +11,14 @@ html{
     scroll-snap-type:y mandatory;
 }
 
+h2{
+    color: #005E5E;
+}
+
+h3{
+    font-size: 35px;
+}
+
 /* Menu Burger */
 
 label {
@@ -254,11 +262,6 @@ li {
     width: 30px;
     margin-left: 10px;
     margin-bottom: 3px;
-}
-
-.hand:hover{
-    height: 28px;
-    width: 32px;
 }
 
 .divhand{
