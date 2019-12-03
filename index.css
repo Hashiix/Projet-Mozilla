@@ -63,7 +63,7 @@ li {
 }
 .menus {
 	color: white;
-	font-size: 20px;
+	font-size: 25px;
 	list-style: none;
     text-decoration: none;
     margin-right: 50px;
@@ -86,10 +86,11 @@ li {
     color: white;
 }
 .textdefinition {
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 5%;
     margin-top: 3%;
     margin-right: 10%;
+    width: 60%;
 }
 .titredefinition {
     font-size: 80px;
@@ -102,11 +103,24 @@ li {
 .ancresavoirplus {
     color: white;
     text-decoration: none;
-    margin-left: 5%;
+    margin-left: 25%;
     margin-top: 3%;
+    width: 15%;
+    height: 50px;
+    border: solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px black;
+
 }
+
 .ancresavoirplus:hover {
-    color: teal;
+    background-color: white;
+    opacity: 80%;
+    color: black;
 }
 
 /*                   Editeurs de texte */
@@ -175,6 +189,7 @@ li {
     text-align: left;
     margin-top: 30px;
     margin-left: 30px;
+    color: white;
 }
 
 /*                      Tickets */
@@ -330,6 +345,7 @@ li {
     text-align: left;
     margin-top: 30px;
     margin-left: 40px;
+    color: white;
 }
 
 /* Fin Gestion */
@@ -367,7 +383,8 @@ li {
     text-align: left;
     margin-top: 30px;
     margin-left: 40px;
-    margin-right: 10px
+    margin-right: 10px;
+    color: white;
 }
 
 /*                      Information */
