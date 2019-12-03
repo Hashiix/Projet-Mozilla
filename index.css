@@ -6,6 +6,10 @@
     font-family: Zilla slab;
 }
 
+.fond {
+    background-image: url(img/fond.jpg);
+}
+
 html{
     scroll-behavior: smooth;
     scroll-snap-type:y mandatory;
@@ -114,7 +118,6 @@ li {
     align-items: center;
     font-size: 20px;
     box-shadow: 2px 2px 5px black;
-
 }
 
 .ancresavoirplus:hover {
@@ -142,7 +145,7 @@ li {
     border-style: solid;
     border-width: 8px;
     border-color: fff44f;
-    background-color: white;
+    background-color: transparent;
 }
 
 @keyframes apparition {
@@ -327,7 +330,7 @@ li {
     border-style: solid;
     border-width: 8px;
     border-color: #FF4F5E;
-    background-color: white;
+    background-color: transparent;
 }
 
 /* Cadre Titre + definition */
@@ -365,7 +368,7 @@ li {
     border-style: solid;
     border-width: 8px;
     border-color: #005E5E;
-    background-color: white;
+    background-color: transparent;
 }
 
 /* Cadre Titre + definition */
