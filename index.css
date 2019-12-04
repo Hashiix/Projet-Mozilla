@@ -100,10 +100,6 @@ li {
     font-size: 80px;
     margin-left: 5%;
 }
-.numerozero {
-    color: white;
-    font-size: 120px;
-}
 .ancresavoirplus {
     color: white;
     text-decoration: none;
@@ -277,8 +273,8 @@ li {
 /* Prise en main & Download */
 
 .hand{
-    height: 25px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     margin-left: 10px;
     margin-bottom: 3px;
 }
@@ -291,8 +287,8 @@ li {
 }
 
 .download{
-    height: 25px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     margin-left: 10px;
     margin-bottom: 3px;
 }
