@@ -100,10 +100,6 @@ li {
     font-size: 80px;
     margin-left: 5%;
 }
-.numerozero {
-    color: white;
-    font-size: 120px;
-}
 .ancresavoirplus {
     color: white;
     text-decoration: none;
@@ -262,12 +258,21 @@ li {
     margin-left: 10px;
     margin-top: 55px;
 }
+.logo1:hover{
+    width: 122px;
+    height: 117px;
+}
 
 .logo2{
     width: 120px;
     height: 130px;
     margin-left: 10px;
     margin-top: 45px;
+}
+
+.logo2:hover{
+    width: 122px;
+    height: 132px;
 }
 
 .textticket{
@@ -425,13 +430,14 @@ li {
     height: 70px ;
     background-color: black;
     display: flex;
-    justify-content: center;
     align-items: center;
     justify-content: space-between;
 }
 .backtotop {
-    display: flex;
-    justify-self: flex-end
+    width: 30px;
+    height: 33px;
+    margin-right: 20px;
+
 }
 
 
