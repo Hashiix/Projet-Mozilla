@@ -282,8 +282,8 @@ li {
 /* Prise en main & Download */
 
 .hand{
-    height: 40px;
-    width: 40px;
+    height: 26px;
+    width: 30px;
     margin-left: 10px;
     margin-bottom: 3px;
 }
@@ -296,8 +296,8 @@ li {
 }
 
 .download{
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     margin-left: 10px;
     margin-bottom: 3px;
 }
