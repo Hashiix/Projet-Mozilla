@@ -99,6 +99,7 @@ li {
 .titredefinition {
     font-size: 80px;
     margin-left: 5%;
+    font-weight: normal;
 }
 .ancresavoirplus {
     color: white;
@@ -176,6 +177,7 @@ li {
     color: black;
     font-size: 100px;
     text-align: left;
+    font-weight: normal;
 }
 .stabiloediteur {
     background-color: fff44f;
@@ -267,7 +269,7 @@ li {
 /* Prise en main & Download */
 
 .hand{
-    height: 26px;
+    height: 30px;
     width: 30px;
     margin-left: 10px;
     margin-bottom: 3px;
