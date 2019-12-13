@@ -342,7 +342,7 @@ li {
 
 /* Fin Gestion */
 
-/*                         Client */
+/*                      Client FTP */
 
 /* Grand Cadre */
 
@@ -475,8 +475,7 @@ li {
         font-size: 20px;
         margin-left: 3%;
         margin-top: 5%;
-        margin-right: 10px;
-        width: 100%;
+        width: 95%;
     }
     .titredefinition {
         font-size: 40px;
@@ -493,6 +492,12 @@ li {
         margin-left: 30%;
     }
 
+/* Fond */
+
+    .fond {
+        background-image: url(img/fondresponsive.jpg);
+    }
+
 /* Editeurs de texte */
 
 /* Grand Cadre + Titre */
@@ -506,7 +511,7 @@ li {
         flex-direction: column;
     }
     .titres {
-        width: 220px;
+        width: 300px;
         margin-top: -20px;
     }
     .numerotitres {
@@ -535,7 +540,7 @@ li {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        height: 320px;
+        height: 290px;
         width: 90%;
         margin-right: 5%;
         margin-left: 5%;
@@ -550,7 +555,7 @@ li {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        height: 320px;
+        height: 310px;
         width: 90%;
         margin-right: 5%;
         margin-left: 5%;
@@ -582,6 +587,68 @@ li {
         margin-right: 0%;
         margin-left: 0%;
         text-align: center;
+    }
+
+/* Gestion */
+
+/* Grand Cadre + Titre */
+
+    .gestion {
+        margin-top: 0%;
+    }
+    .definitiongestion {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+/* Client FTP */
+
+/* Grand Cadre + Titre */
+
+    .client {
+        margin-top: 0%;
+    }
+    .definitionclient {
+        font-size: 17px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+/* Informations */
+
+    .information {
+        display: flex;
+        background-size: 400%;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 800px;
+    }
+    .pourquoi {
+        font-size: 15px;
+        margin-top: 0%;
+        margin-right: 3%;
+
+    }
+    .avantages {
+        font-size: 15px;
+        margin-right: 3%;
+        margin-left: 10%;
+    }
+
+/* Footer */
+
+    .footer {
+        height: 40px;
+    }
+    .imgfooter {
+        height: 40px;
+        width: 40px;
+    }
+    .backtotop {
+        height: 20px;
+        width: 20px;
+        margin-right: 10px;
     }
 
 
