@@ -4,8 +4,10 @@
     margin: 0px;
     padding: 0px;
     font-family: Zilla slab;
-    text-align: center;
-    font-size: 40px;
+}
+
+.fond {
+    background-image: url(img/fond.jpg);
 }
 
 html{
@@ -13,15 +15,22 @@ html{
     scroll-snap-type:y mandatory;
 }
 
+h2{
+    color: #005E5E;
+}
+
+h3{
+    font-size: 35px;
+}
+
 /* Menu Burger */
 
 label {
-	margin-top: 20px;
 	margin-right: 10px;
-	font-size: 40px;
-	line-height: 70px;
+	font-size: 30px;
 	display: none;
-	float: right;
+    float: right;
+    color: white;
 }
 #toggle {
 	display: none;
@@ -37,24 +46,27 @@ header{
 	position: fixed;
 }
 .logo {
-	height: 50px;
+    height: 40px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+.navmenu {
+    display: flex;
+    align-items: center;
+    height: 46px;
 }
 ul {
 	display: flex;
 }
 li {
 	color: white;
-	font-size: 20px;
+    font-size: 20px;
 	list-style: none;
-	margin-top: 20px;
-	margin-right: 20px;
-}
-.invisible {
-	height: 50px;
+    margin-right: 20px;
 }
 .menus {
 	color: white;
-	font-size: 20px;
+	font-size: 25px;
 	list-style: none;
     text-decoration: none;
     margin-right: 50px;
@@ -67,54 +79,586 @@ li {
     width: 100%;
     height: 100vh;
     background-color: black;
-    scroll-snap-align: start;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     background-image: url(img/header.jpg);
-    background-size: 60%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     color: white;
 }
 .textdefinition {
-    font-size: 25px;
-    margin-right: 20%;
-    margin-left: 20%;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-right: 10%;
+    width: 60%;
 }
 .titredefinition {
-    font-size: 40px;
-    margin-top: 50px;
+    font-size: 80px;
+    margin-left: 5%;
+    font-weight: normal;
 }
-.definition1 {
+.titredefinition1 {
+    font-size: 80px;
+    margin-left: 5%;
+    font-weight: normal;
+}
+.ancresavoirplus {
+    color: white;
+    text-decoration: none;
+    margin-left: 25%;
+    margin-top: 3%;
+    width: 15%;
+    height: 50px;
+    border: solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 20px;
-    margin-right: 10%;
+    box-shadow: 2px 2px 5px black;
+}
+
+.ancresavoirplus:hover {
+    background-color: white;
+    opacity: 80%;
+    color: black;
+}
+
+/*                   Editeurs de texte */
+
+.invisible {
+    height: 50px;
+}
+
+/* Grand Cadre */
+
+.edition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    border-style: solid;
+    border-width: 8px;
+    border-color: fff44f;
+    background-color: transparent;
+}
+
+/*  Cadre Titre + definition  */
+
+.toptitres {
+    width: 100%;
+    display: flex;
+}
+
+/* Titre "01. Editeur de texte" */
+
+.titres {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -45px;
+}
+.numero {
+    color: white;
+    font-size: 140px;
+}
+.numerotitres {
+    color: black;
+    font-size: 100px;
+    text-align: left;
+    font-weight: normal;
+}
+.stabiloediteur {
+    background-color: fff44f;
+}
+
+/* Definition "Editeur de texte" */
+
+.definitionedition {
+    font-size: 25px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: white;
+}
+
+/*                      Tickets */
+
+/* Format et position des Tickets */
+
+.space{
+	height: 100px;
+}
+
+.ticketleft{
+    border-style: solid;
+    border-width: 3px;
+    border-top-width: 30px;
+    border-color: black;
+    border-bottom-left-radius: 15px; 
+    border-bottom-right-radius: 15px;
+    box-shadow: 1px 1px 5px black;
+    background-color: white;
+    width: 839px;
+    height: 230px;
+    margin-left: -10%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.ticketright{
+    border-style: solid;
+    border-width: 3px;
+    border-top-width: 30px;
+    border-color: black;
+    border-bottom-left-radius: 15px; 
+    border-bottom-right-radius: 15px;
+    box-shadow: 1px 1px 5px black;
+    background-color: white;
+    width: 839px;
+    height: 230px;
     margin-left: 10%;
+    margin-top: 5%;;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
 }
 
+/* Logo Ticket */
 
+.logo1{
+    width: 120px;
+    height: 115px;
+    margin-left: 30%;
+    margin-top: 55px;
+}
+.logo1:hover{
+    width: 122px;
+    height: 117px;
+}
 
+.logo2{
+    width: 120px;
+    height: 130px;
+    margin-left: 30%;
+    margin-top: 45px;
+}
 
+.logo2:hover{
+    width: 122px;
+    height: 132px;
+}
 
+.textticket{
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-right: 3%;
+}
 
+/* Prise en main & Download */
 
+.hand{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
 
-.partie2 {
+.divhand{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    margin-top: 15px;
+}
+
+.download{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.download:hover{
+    height: 32px;
+    width: 32px;
+}
+
+.divdownload{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.hado{
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*                      Gestion */
+
+/* Grand Cadre */
+
+.gestion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #FF4F5E;
+    background-color: transparent;
+}
+
+/* Cadre Titre + definition */
+
+/* Titre */
+
+.stabilogestion {
+    background-color: #FF4F5E;
+}
+
+/* Definition */
+
+.definitiongestion {
+    font-size: 25px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 40px;
+    color: white;
+}
+
+/* Fin Gestion */
+
+/*                      Client FTP */
+
+/* Grand Cadre */
+
+.client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #005E5E;
+    background-color: transparent;
+}
+
+/* Cadre Titre + definition */
+
+/* Titre */
+
+.stabiloclient {
+    background-color: #005E5E;
+}
+
+/* Definition */
+
+.definitionclient {
+    font-size: 25px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 10px;
+    color: white;
+}
+
+/*                      Informations */
+
+.information{
     width: 100%;
     height: 100vh;
-    background-color: yellow;
-    scroll-snap-align: start;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(img/photoinfo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
 }
-.partie3 {
+
+.pourquoi{
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+.avantages{
+    margin-top: 5%;
+    margin-left: 23%;
+    font-size: 20px;
+}
+
+/*                  Footer */
+
+.footer{
     width: 100%;
-    height: 100vh;
-    background-color: blue;
-    scroll-snap-align: start;
+    height: 70px ;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.partie4 {
-    width: 100%;
-    height: 100vh;
-    background-color: red;
-    scroll-snap-align: start;
+.backtotop {
+    width: 30px;
+    height: 33px;
+    margin-right: 20px;
+
 }
+
+/* Media queries */
+
+@media(max-width: 840px) {	
+
+/* Menu Burger */
+
+	label {
+		display: block;
+		cursor: pointer;
+	}
+
+	header{
+		display: block;
+	}
+	.burger {
+		text-align: center;
+		flex-direction: column;
+		width: 100%;
+		padding: 0px;
+        margin-left: 0px;
+    }
+    .navmenu {
+        display: none;
+        height: 95px;
+    }
+    #toggle:checked + nav {
+		display: block;
+    }
+    .logo {
+        margin-bottom: 2px;
+    }
+    li {
+        margin-right: 0px;
+    }
+    .menus {
+        margin-right: 0px;
+    }
+
+/* Header */
+
+    .definition {
+        display: flex;
+        justify-content: flex-start;
+        background-size: 220%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .textdefinition {
+        font-size: 20px;
+        margin-left: 3%;
+        margin-top: 5%;
+        width: 95%;
+    }
+    .titredefinition {
+        font-size: 40px;
+        font-weight: normal;
+        margin-top: 100px;
+    }
+    .titredefinition1 {
+        font-size: 40px;
+        font-weight: normal;
+    }
+    .ancresavoirplus {
+        width: 40%;
+        margin-top: 8%;
+        margin-left: 30%;
+    }
+
+/* Fond */
+
+    .fond {
+        background-image: url(img/fondresponsive.jpg);
+    }
+
+/* Editeurs de texte */
+
+/* Grand Cadre + Titre */
+
+    .edition {
+        margin-left: 3%;
+        margin-right: 3%;
+        border-width: 4px;
+    }
+    .toptitres {
+        flex-direction: column;
+    }
+    .titres {
+        width: 300px;
+        margin-top: -20px;
+    }
+    .numerotitres {
+        font-size: 50px;
+    }
+    .numero {
+        font-size: 70px;
+    }
+    .definitionedition {
+        font-size: 17px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+/* Tickets */
+
+    .ticketediteur {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .ticketleft{
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 15px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 290px;
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 10%;
+        border-top-width: 3px;
+        border-radius: 15px; 
+    }
+    .ticketright{
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 15px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 310px;
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 10%;
+        border-top-width: 3px;
+        border-radius: 15px; 
+    }
+    .logo1{
+        width: 60px;
+        height: 52.5px;
+        margin-top: 5px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .logo2{
+        width: 60px;
+        height: 65px;
+        margin-top: 5px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .space{
+        height: 30px;
+    }
+    .textticket {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0%;
+        margin-left: 0%;
+        text-align: center;
+    }
+
+/* Gestion */
+
+/* Grand Cadre + Titre */
+
+    .gestion {
+        margin-top: 0%;
+    }
+    .definitiongestion {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+/* Client FTP */
+
+/* Grand Cadre + Titre */
+
+    .client {
+        margin-top: 0%;
+    }
+    .definitionclient {
+        font-size: 17px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+/* Informations */
+
+    .information {
+        display: flex;
+        background-size: 400%;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 800px;
+    }
+    .pourquoi {
+        font-size: 15px;
+        margin-top: 0%;
+        margin-right: 3%;
+
+    }
+    .avantages {
+        font-size: 15px;
+        margin-right: 3%;
+        margin-left: 10%;
+    }
+
+/* Footer */
+
+    .footer {
+        height: 40px;
+    }
+    .imgfooter {
+        height: 40px;
+        width: 40px;
+    }
+    .backtotop {
+        height: 20px;
+        width: 20px;
+        margin-right: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+

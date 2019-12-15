@@ -1,12 +1,12 @@
 <html>
 
 <head>
-    <title> Fondation Mozilla </title>
+    <title>Créer son site web avec l'open source</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Notre site recense des logiciels open-source gratuits pour créer votre premier site web">
     <link rel="stylesheet" type="text/css" href="index.css">
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab:300&display=swap" rel="stylesheet"> 
 </head>   
 
 <body>
@@ -14,12 +14,11 @@
 <!-- Menu -->
 
     <header>
-        <img class="logo" src="img/logo.png">
+        <a href="index.html"><img class="logo" src="img/logo.png"></a>
         <label for="toggle">&#9776;</label>
         <input type="checkbox" id="toggle"/>
         <nav class="navmenu">	
             <ul class="burger">
-                <li><a class="menus" href="#definition">Définition</a></li>
                 <li><a class="menus" href="#edition">Edition</a></li>
                 <li><a class="menus" href="#gestion">Gestion</a></li>
                 <li><a class="menus" href="#client">Client</a></li>
@@ -27,39 +26,284 @@
         </nav>
     </header>
 
- <!-- Header -->
+<!-- Fin Menu -->
+
+<!-- Header -->
 
     <div class="definition" id="definition">
-        <p class="textdefinition">Cette onepage est consacrée à vour faire découvrir 10 outils open source et gratuits afin de vous aider à créer votre premier site Web en 3 étapes.</p>
-        <p class="titredefinition">Définition de l’Open Source</p>
-        <p class="definition1">La désignation open source, ou « code source ouvert », s'applique aux logiciels dont la licence respecte des critères précisément établis par l'Open Source Initiative, c'est-à-dire les possibilités de libre redistribution, d'accès au code source et de création de travaux dérivés. Mis à la disposition du grand public, ce code source est généralement le résultat d'une collaboration entre programmeurs. </p>
+        <h1 class="titredefinition">Créer votre site web</h1>
+        <p class="titredefinition1">avec de l'Open source ?</p>
+        <p class="textdefinition">La désignation open source, ou « code source ouvert », s'applique aux logiciels dont la licence respecte des critères précisément établis par l'Open Source Initiative, c'est-à-dire les possibilités de libre redistribution, d'accès au code source et de création de travaux dérivés. Mis à la disposition du grand public, ce code source est généralement le résultat d'une collaboration entre programmeurs. </p>
+        <a class="ancresavoirplus" href="#ensavoirplus"><p>En savoir plus</p></a>
     </div>
 
-<!-- Partie 2 -->
+<!-- Fin Header -->
 
-    <div class="partie2">
-        <p>Lorem ipsum</p>
-    </div>
+<!-- Editeurs de texte -->
 
-<!-- Partie 3 -->
+    <div class="fond">
+        <div class="invisible" id="edition"></div>
+        <div class="edition">
+            <div class="toptitres">
+                <div class="titres">
+                    <h2 class="numerotitres"><mark class="stabiloediteur"><strong class="numero">01.</strong>Editeur</mark></h2>
+                    <h2 class="numerotitres"><mark class="stabiloediteur">de texte</mark></h2>
+                </div>
+                <p class="definitionedition">Un éditeur de texte est un logiciel destiné à la création et l’édition de fichiers textes. Chaque système d’exploitation fournit un éditeur, tant son usage est courant, voire incontournable pour certaines tâches informatiques de base comme l’administration de système et le développement de logiciels.</p>
+            </div> 
+            <div class="space"></div>
+            <div class="ticketediteur">
+                <div class="ticketleft">
+                        <a href="https://atom.io/" target="_blank"><img class="logo1" src="img/atom.png"></a>
+                        <div class="textticket">
+                            <h2>ATOM</h2>
+                            <p> Atom est un éditeur de texte libre pour macOS, GNU/Linux et Windows développé par GitHub. Il supporte des plug-ins écrits en Node.js et implémente Git Control. La plupart des extensions sont sous licence libre et sont maintenues par la communauté.</p>
+                            <div class="hado">
+                                <div class="divhand">
+                                    <img class="hand" src="img/priseenmainvert.jpg">
+                                    <p>Prise en main</p>
+                                </div>
+                                <div class="divdownload">
+                                    <a class="test"> <img class="download" src="img/download.jpg"> </a>
+                                    <p>Télécharger</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="ticketright">
+                    <a href="http://brackets.io/" target="_blank"><img class="logo2" src="img/brackets.png"></a>
+                    <div class="textticket">
+                        <h2>BRACKETS</h2>
+                        <p> Brackets est un éditeur open source pour le web design et le développement sur des technologies Web telles que HTML, CSS et JavaScript. Le projet a été créé et est maintenu par Adobe, et est publié sous une licence MIT.
+                        </p>
+                        <div class="hado">
+                            <div class="divhand">
+                                <img class="hand" src="img/priseenmainvert.jpg">
+                                <p>Prise en main</p>
+                            </div>
+                            <div class="divdownload">
+                                <img class="download" src="img/download.jpg">
+                                <p>Télécharger</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticketleft">
+                    <a href="http://codeblocks.org/" target="_blank"><img class="logo1" src="img/codeblocks.jpg"></a>
+                    <div class="textticket">
+                        <h2>CODE::BLOCKS</h2>
+                        <p> Code::Blocks est un environnement de développement intégré libre et multiplate-forme. Il est écrit en C++ et utilise la bibliothèque wxWidgets. Il est orienté C et C++, mais il supporte d’autres langages. Disponible sur Linux, Windows et Mac OS X.</p>
+                        <div class="hado">
+                            <div class="divhand">
+                                <img class="hand" src="img/priseenmainorange.jpg">
+                                <p>Prise en main</p>
+                            </div>
+                            <div class="divdownload">
+                                <img class="download" src="img/download.jpg">
+                                <p>Télécharger</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticketright">
+                    <a href="https://netbeans.org/" target="_blank"><img class="logo2" src="img/netbeans.png"></a>
+                    <div class="textticket">
+                        <h2>NETBEANS</h2>
+                        <p> NetBeans est un environnement de développement intégré, placé en open source sous licence CDDL et GPLv2. En plus de Java, NetBeans permet la prise en charge native de divers langages tels le C, le JavaScript, le PHP, le HTML, ou d’autres par l’ajout de greffons.</p>
+                        <div class="hado">
+                            <div class="divhand">
+                                <img class="hand" src="img/priseenmainorange.jpg">
+                                <p>Prise en main</p>
+                            </div>
+                            <div class="divdownload">
+                                <img class="download" src="img/download.jpg">
+                                <p>Télécharger</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticketleft">
+                    <a href="https://notepad-plus-plus.org/" target="_blank"><img class="logo1" src="img/notepad++.png"></a>
+                    <div class="textticket">
+                        <h2>NOTEPAD++</h2>
+                        <p> Notepad++ fonctionne sous Windows, codé en C++, il intègre la coloration syntaxique de code source pour les langages et fichiers de tout langage informatique, car il propose la possibilité de créer ses propres colorations syntaxiques.</p>
+                        <div class="hado">
+                            <div class="divhand">
+                                <img class="hand" src="img/priseenmainorange.jpg">
+                                <p>Prise en main</p>
+                            </div>
+                            <div class="divdownload">
+                                <img class="download" src="img/download.jpg">
+                                <p>Télécharger</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticketright">
+                    <a href="https://vscodium.com/" target="_blank"><img class="logo2" src="img/vscode.png"></a>
+                    <div class="textticket">
+                        <h2>VISUALSTUDIO CODE</h2>
+                        <p>Visual Studio Code est un éditeur de code extensible développé par Microsoft pour Windows, Linux et macOS. Il est basé sur Electron, une structure utilisée pour déployer des applications Node.js pour le bureau</br> <strong>Attention :</strong> si VSCode de Microsoft est open source, les fichiers binaires ne le sont pas !</p>
+                        <div class="hado">
+                            <div class="divhand">
+                                <img class="hand" src="img/priseenmainvert.jpg">
+                                <p>Prise en main</p>
+                            </div>
+                            <div class="divdownload">
+                                <img class="download" src="img/download.jpg">
+                                <p>Télécharger</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="space"></div>
+            </div>
+        </div>
+        
+<!-- Fin Editeur de texte -->
 
-    <div class="partie3">
-        <p>Lorem ipsum</p>
-    </div>
+<!-- Gestion -->
 
-<!-- Partie 4 -->
+        <div class="invisible" id="gestion"></div>
+        <div class="gestion">
+            <div class="toptitres">
+                <div class="titres">
+                    <h2 class="numerotitres"><mark class="stabilogestion"><strong class="numero">02.</strong>Gestion</mark></h2>
+                    <h2 class="numerotitres"><mark class="stabilogestion">de versions</mark></h2>
+                </div>
+                <p class="definitiongestion">La gestion de versions consiste à maintenir l’ensemble des versions d’un ou plusieurs fichiers. Cette activité étant fastidieuse et relativement complexe, un appui logiciel est presque indispensable. Voir l’outil de gestion de versions comme un outil permettant à chacun de travailler à son rythme, de façon désynchronisée des autres, puis d’offrir un moyen à ces développeurs de s’échanger leur travaux respectifs.</p>
+            </div>
+            <div class="space"></div>
+            <div class="ticketgestion">
+            <div class="ticketleft">
+                <a href="https://git-scm.com/" target="_blank"><img class="logo1" src="img/git.png"></a>
+                <div class="textticket">
+                    <h2>GIT</h2>
+                    <p> Git est un logiciel de gestion de versions décentralisé. Distribué selon les termes de la licence publique générale GNU version 2. En 2016, il s’agit du logiciel de gestion de versions le plus populaire qui est utilisé par plus de douze millions de personnes.</p>
+                    <div class="hado">
+                        <div class="divhand">
+                            <img class="hand" src="img/priseenmainrouge.jpg">
+                            <p>Prise en main</p>
+                        </div>
+                        <div class="divdownload">
+                            <img class="download" src="img/download.jpg">
+                            <p>Télécharger</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ticketright">
+                <a href="https://www.mercurial-scm.org/" target="_blank"><img class="logo2" src="img/mercurial.png"></a>
+                <div class="textticket">
+                    <h2>MERCURIAL</h2>
+                    <p> Mercurial est un logiciel de gestion de versions décentralisé disponible sur la plupart des systèmes Unix et Windows. Créer et développer principalement par Matt Mackall. C’est un logiciel libre, l’ensemble des sources du logiciel étant sous la GNU GPL version 2.</p>
+                    <div class="hado">
+                        <div class="divhand">
+                            <img class="hand" src="img/priseenmainrouge.jpg">
+                            <p>Prise en main</p>
+                        </div>
+                        <div class="divdownload">
+                            <img class="download" src="img/download.jpg">
+                            <p>Télécharger</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space"></div>
+        </div>
+        </div>
 
-    <div class="partie4">
-        <p>Lorem ipsum</p>
-    </div>
+<!-- Fin Gestion -->
 
+<!-- Client -->
 
+        <div class="invisible" id="client"></div>
+        <div class="client">
+            <div class="toptitres">
+                <div class="titres">
+                    <h2 class="numerotitres"><mark class="stabiloclient"><strong class="numero">03.</strong>Client</mark></h2>
+                    <h2 class="numerotitres"><mark class="stabiloclient">FTP</mark></h2>
+                </div>  
+                <p class="definitionclient">File Transfer Protocol, ou FTP, est un protocole de communication destiné au partage de fichiers sur un réseau TCP/IP. Il permet, depuis un ordinateur, de copier des fichiers vers un autre ordinateur du réseau, ou encore de supprimer ou de modifier des fichiers sur cet ordinateur. Ce mécanisme de copie est souvent utilisé pour alimenter un site web hébergé chez un tiers.</p>
+            </div>
+            <div class="space"></div>
+            <div class="ticketclient">
+                <div class="ticketleft">
+                    <a href="https://filezilla-project.org/" target="_blank"><img class="logo1" src="img/filezilla.png"></a>
+                    <div class="textticket">
+                        <h2>FILEZILLA</h2>
+                        <p> FileZilla Client est un client FTP, FTPS et SFTP, développé sous la licence publique générale GNU. Il est intégré à la liste des logiciels libres préconisés par l’État français dans le cadre de la modernisation globale de ses systèmes d’informations.</p>
+                        <div class="hado">
+                            <div class="divhand">
+                                <img class="hand" src="img/priseenmainvert.jpg">
+                                <p>Prise en main</p>
+                            </div>
+                            <div class="divdownload">
+                                <img class="download" src="img/download.jpg">
+                                <p>Télécharger</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticketright">
+                    <a href="https://cyberduck.io/" target="_blank"><img class="logo2" src="img/cyberduck.jpg"></a>
+                    <div class="textticket">
+                        <h2>CYBERDUCK</h2>
+                        <p> Cyberduck est un navigateur libre pour serveurs et stockage en nuage pour Mac et Windows, avec prise en charge des protocoles FTP, SFTP, WebDAV, Amazon S3, OpenStack Swift, Backblaze B2, Microsoft Azure et OneDrive, Google Drive et Dropbox.</p>
+                        <div class="hado">
+                            <div class="divhand">
+                                <img class="hand" src="img/priseenmainorange.jpg">
+                                <p>Prise en main</p>
+                            </div>
+                            <div class="divdownload">
+                                <img class="download" src="img/download.jpg">
+                                <p>Télécharger</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="space"></div>
+            </div> 
+        </div>
 
+<!-- Fin Client-->
 
+<!-- Informations -->
 
+        <div class="invisible"></div>
+        <div class="information" id="ensavoirplus">
+            <div class="space"></div>
+                <div class="pourquoi">
+                    <h3>Pourquoi utiliser de l’Open Source</br> dans le développement ?</h3>
+                    </br>
+                    <p>L’Open Source est un réel vecteur d’innovation et de croissance. Il réunit des facteurs essentiels à</br> l’innovation, à savoir : la modularité, un écosystème dynamique, une facilité d’accès, une grande</br> adaptabilité et des coûts très faibles. Par ailleurs, l’Open Source illustre très bien des valeurs telles</br> que le partage et l’échange, et cela ne peut être que bénéfique à votre entreprise.</p>
+                </div>
+                <div class="space"></div>
+                <div class="avantages">
+                    <h3>Avantages</h3>
+                    </br>
+                    <p> -  <strong>Le tarif</strong>, dans la majorité des cas le code en lui-même ne coûte rien,</br>
+                        -  <strong>La maîtrise</strong>, les entreprises peuvent prendre leur indépendance par rapport à leurs éditeurs.</br>
+                        -  <strong>La flexibilité</strong>, les solutions Open Source ne sont pas monolithiques, elles sont en fait très modulables.</br>
+                        -  <strong>La sécurité</strong>, les logiciels sont publics, cela signifie donc qu’ils peuvent être analysés par des centaines</br>
+                        d’experts du monde entier qui sont très réactifs. La moindre faille est rapidement détectée et corrigée.</br>
+                        -  <strong>La pérennité</strong>, son caractère modulable lui permet de rester performant beaucoup plus longtemps</br>
+                        que les logiciels propriétaires qui sont beaucoup moins adaptables.</p>
+                </div>
+            <div class="space"></div>
+        </div>
 
+<!-- Fin Informations -->
 
+<!-- Debut Footer -->
 
-</body>
+        <div class="footer">
+            <img class="imgfooter" src="img/mozillaicon.jpg">
+            <a href="#definition"><img class="backtotop" src="img/backtotop.png"></a>
+        </div>
+
+<!-- Fin Footer -->
+
+    </body>
 
 </html>
